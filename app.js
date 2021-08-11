@@ -8,7 +8,4 @@ app.set('view engine', 'pug');
 
 app.use(routes);
 
-
-const port = 8080;
-
-app.listen(port, () => console.log(`Listening on port ${port}...`))
+module.exports = app;
